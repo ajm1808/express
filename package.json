@@ -1,15 +1,30 @@
 {
   "name": "express-server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "node-fetch": "^2.6.0",
+    "path": "^0.12.7"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajm1808/express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ajm1808/express/issues"
+  },
+  "homepage": "https://github.com/ajm1808/express#readme",
+  "description": ""
 }
