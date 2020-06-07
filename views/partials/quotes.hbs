@@ -1,11 +1,10 @@
 <div class = "quotes">
-    <h2>List of quotes</h2>
         {{#if listExists}}
             <ul>
                 {{#each data}}
-                    <li>{{this.quote}}</li>
-                    <li>{{this.character}}</li>
-                    <img src={{this.image}}/>
+                    <li id="qu">{{this.quote}}</li>
+                    <li id="name">{{this.character}}</li>
+                    <img class="char" src={{this.image}}/>
                 {{/each}}
             </ul>
         {{/if}}

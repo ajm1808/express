@@ -1,3 +1,8 @@
+/* @font-face{
+    font-family:"Simpson";
+    src: url("../font/Simpsonfont.ttf")
+} */
+
 *{
     margin: 0;
     padding: 0;
@@ -5,27 +10,70 @@
     }
     body{
     background-color: lightblue;
+    background-image: url(https://i.pinimg.com/originals/7d/a6/96/7da696f1987d39249d42946f331ccc1b.jpg);
     }
     .container{
     padding: 10px;
+    display:flex;
+    justify-content: center;
+    flex-flow: row wrap;
     }
-    nav{
-    background-color: lightgray;
-    padding: 10px 15px;
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-    }
-    nav ul{
-    display: flex;
-    justify-content: space-around;
-    }
-    nav ul li{
-    padding-left: 20px;
-    list-style: none;
-    }
-
+  
     .quotes ul li{
         padding-left: 20px;
         list-style: none;
         }
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quotes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    align-self: center;
+}
+
+h2{
+    align-self: center;
+}
+
+@font-face{
+    font-family:"Simpson";
+    src: url("../font/Simpsonfont.ttf")
+}
+
+#qu{
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size:large;
+    word-wrap: break-word;
+    font-family: Simpson;
+    padding:2px;
+    width:30%;
+    text-align: center;
+}
+
+#name{
+    font-family: Simpson;
+    font-style: italic;
+    color:black;
+    text-shadow: black;
+    font-weight: 600;
+}
+.char{
+    align-self: center;
+    height:400px;
+   
+}
