@@ -38,6 +38,7 @@
 
 ul{
     display: flex;
+    justify-content: center;
 }
 
 li{
@@ -63,6 +64,7 @@ h2{
     padding:2px;
     width:30%;
     text-align: center;
+    font-style: italic;
 }
 
 #name{
@@ -76,4 +78,12 @@ h2{
     align-self: center;
     height:400px;
    
+}
+a{
+    text-decoration: none;
+    background-color: rgba(89, 187, 243, 0.767);
+    color: rgb(250, 250, 248);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
 }
